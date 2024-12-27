@@ -1,112 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Shake Down Studio</title>
-  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-  <script src="https://static.elfsight.com/platform/platform.js" async></script>
-</head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Header Section -->
-  <header class="bg-white shadow py-4">
-    <div class="container mx-auto px-4 flex items-center justify-between">
-      <img src="images/logo.png" alt="Shake Down Studio Logo" class="h-16"/>
-      <nav>
-        <a href="#services" class="text-gray-700 hover:text-black font-medium mx-4">Services</a>
-        <a href="#contact" class="text-gray-700 hover:text-black font-medium">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
 
-  <!-- Hero / Studio Introduction -->
-  <section class="relative bg-cover bg-center h-[60vh]" style="background-image: url('images/SDR_BANNER_edited-6.webp');">
-    <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center text-white px-4">
-      <h1 class="text-4xl font-bold">Welcome to Shake Down Studio</h1>
-      <p class="mt-4 text-lg max-w-2xl">
-        Your go-to recording studio for all your music needs. Our studio was built in 2013 with a custom design and the latest technology infrastructure to provide the best possible recording experience.
-      </p>
-    </div>
-  </section>
+    <!-- Title & Basic SEO -->
+    <title>
+      Shake Down Studio - Recording, Mixing, Mastering, Scratching & Beats
+    </title>
+    <meta
+      name="description"
+      content="Shake Down Studio provides top-notch recording, mixing, mastering, scratching, and beat composition services since 2013. Get the best sound quality for $100/hour."
+    />
+    <meta
+      name="keywords"
+      content="Shake Down Studio, recording studio, mixing, mastering, scratching, beats, Perth music studio"
+    />
 
-  <!-- Services Section -->
-  <section id="services" class="py-16 bg-gray-100">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-8">Services</h2>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Shake Down Studio" />
+    <meta
+      property="og:description"
+      content="Your go-to recording studio for all your music needs. Built in 2013 with custom design and the latest technology."
+    />
+    <meta property="og:image" content="images/og-image.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shakedownstudio.com.au" />
 
-      <!-- Guidance & Quality -->
-      <div class="grid md:grid-cols-2 gap-8 mb-12">
-        <div>
-          <img src="images/shaker1.jpg" alt="Studio Setup" class="rounded shadow"/>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shake Down Studio" />
+    <meta
+      name="twitter:description"
+      content="Recording, Mixing, Mastering, Scratching & Beat Composition. Built in 2013 with latest tech."
+    />
+    <meta name="twitter:image" content="images/og-image.jpg" />
+
+    <!-- Tailwind & Elfsight -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script
+      src="https://static.elfsight.com/platform/platform.js"
+      async
+    ></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Header Section -->
+    <header class="bg-white shadow py-4">
+      <div class="container mx-auto px-4 flex items-center justify-between">
+        <img src="images/logo.png" alt="Shake Down Studio Logo" class="h-16" />
+        <nav>
+          <a
+            href="#services"
+            class="text-gray-700 hover:text-black font-medium mx-4"
+            >Services</a
+          >
+          <a href="#contact" class="text-gray-700 hover:text-black font-medium"
+            >Contact</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero / Studio Introduction -->
+    <section
+      class="relative bg-cover bg-center h-[60vh]"
+      style="background-image: url('images/SDR_BANNER_edited-6.webp')"
+    >
+      <div
+        class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center text-white px-4"
+      >
+        <h1 class="text-4xl font-bold">Welcome to Shake Down Studio</h1>
+        <p class="mt-4 text-lg max-w-2xl">
+          Your go-to recording studio for all your music needs. Our studio was
+          built in 2013 with a custom design and the latest technology
+          infrastructure to provide the best possible recording experience.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Services</h2>
+
+        <!-- Guidance & Quality -->
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+          <div>
+            <img
+              src="images/shaker1.jpg"
+              alt="Studio Setup"
+              class="rounded shadow"
+            />
+          </div>
+          <div class="flex flex-col justify-center">
+            <h3 class="text-2xl font-semibold mb-4">Guidance & Quality</h3>
+            <p class="text-gray-600">
+              We will guide you through the entire process, ensuring you choose
+              the best mic and hardware to suit your project needs. With our
+              vast range of options, you can be assured of the best quality
+              sound.
+            </p>
+          </div>
         </div>
-        <div class="flex flex-col justify-center">
-          <h3 class="text-2xl font-semibold mb-4">Guidance & Quality</h3>
-          <p class="text-gray-600">
-            We will guide you through the entire process, ensuring you choose the best mic and hardware to suit your project needs. With our vast range of options, you can be assured of the best quality sound.
-          </p>
+
+        <!-- Mastering Services -->
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+          <div class="order-2 md:order-1 flex flex-col justify-center">
+            <h3 class="text-2xl font-semibold mb-4">Mastering Services</h3>
+            <p class="text-gray-600">
+              We also offer mastering services to ensure that your project
+              sounds even and loud while retaining its dynamics and any unique
+              qualities it requires. Our team will work with you to achieve the
+              sound you envision.
+            </p>
+          </div>
+          <div class="order-1 md:order-2">
+            <img
+              src="images/shaker2.jpg"
+              alt="Mastering Console"
+              class="rounded shadow"
+            />
+          </div>
+        </div>
+
+        <!-- Scratching & Mixing -->
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+          <div>
+            <img
+              src="images/shaker3.jpg"
+              alt="DJ Scratching"
+              class="rounded shadow"
+            />
+          </div>
+          <div class="flex flex-col justify-center">
+            <h3 class="text-2xl font-semibold mb-4">Scratching & Mixing</h3>
+            <p class="text-gray-600">
+              At Shake Down Studio, we understand the importance of scratching
+              in music. We offer a service to dig for relevant samples, or you
+              can bring your own for a solo or traditional hook style sequence.
+              Just give us the topic, and we'll handle the rest.
+            </p>
+            <p class="text-gray-600 mt-4">
+              Our mixing service will take your project to the next level.
+              Whether it’s gritty, grimy, or commercially friendly, we’ll ensure
+              your project sounds its best.
+            </p>
+          </div>
+        </div>
+
+        <!-- Beats & Composition -->
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="order-2 md:order-1 flex flex-col justify-center">
+            <h3 class="text-2xl font-semibold mb-4">Beats & Composition</h3>
+            <p class="text-gray-600">
+              Looking for beats? Check out our catalogue or request a custom
+              composition to suit your project. We specialise in turning your
+              mixtape into an original album, ensuring your music stands out
+              from the crowd.
+            </p>
+          </div>
+          <div class="order-1 md:order-2">
+            <img
+              src="images/robshakerlogo.jpg"
+              alt="Beat Composition"
+              class="rounded shadow"
+            />
+          </div>
         </div>
       </div>
+    </section>
 
-      <!-- Mastering Services -->
-      <div class="grid md:grid-cols-2 gap-8 mb-12">
-        <div class="order-2 md:order-1 flex flex-col justify-center">
-          <h3 class="text-2xl font-semibold mb-4">Mastering Services</h3>
-          <p class="text-gray-600">
-            We also offer mastering services to ensure that your project sounds even and loud while retaining its dynamics and any unique qualities it requires. Our team will work with you to achieve the sound you envision.
-          </p>
-        </div>
-        <div class="order-1 md:order-2">
-          <img src="images/shaker2.jpg" alt="Mastering Console" class="rounded shadow"/>
-        </div>
+    <!-- Contact & Pricing -->
+    <section id="contact" class="py-16 bg-white">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-xl font-bold mb-4">
+          Recording, Mixing, Mastering, Scratching & Beat Composition -
+          $100/hour
+        </p>
+        <!-- Elfsight Widget (no extra heading) -->
+        <div
+          class="elfsight-app-cd144ed9-9c55-46e0-8f90-cf4413ec12f8"
+          data-elfsight-app-lazy
+        ></div>
       </div>
+    </section>
 
-      <!-- Scratching & Mixing -->
-      <div class="grid md:grid-cols-2 gap-8 mb-12">
-        <div>
-          <img src="images/shaker3.jpg" alt="DJ Scratching" class="rounded shadow"/>
-        </div>
-        <div class="flex flex-col justify-center">
-          <h3 class="text-2xl font-semibold mb-4">Scratching & Mixing</h3>
-          <p class="text-gray-600">
-            At Shake Down Studio, we understand the importance of scratching in music. We offer a service to dig for relevant samples or you can bring your own for a solo or traditional hook style sequence. Just give us the topic, and we'll handle the rest.
-          </p>
-          <p class="text-gray-600 mt-4">
-            Our mixing service will take your project to the next level. Whether it’s gritty, grimy, or commercially friendly, we’ll ensure your project sounds its best.
-          </p>
-        </div>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Shake Down Studio. All rights reserved.</p>
       </div>
-
-      <!-- Beats & Composition -->
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="order-2 md:order-1 flex flex-col justify-center">
-          <h3 class="text-2xl font-semibold mb-4">Beats & Composition</h3>
-          <p class="text-gray-600">
-            Looking for beats? Check out our catalogue or request a custom composition to suit your project. We specialise in turning your mixtape into an original album, ensuring your music stands out from the crowd.
-          </p>
-        </div>
-        <div class="order-1 md:order-2">
-          <img src="images/robshakerlogo.jpg" alt="Beat Composition" class="rounded shadow"/>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact & Pricing -->
-  <section id="contact" class="py-16 bg-white">
-    <div class="container mx-auto px-4 text-center">
-      <p class="text-xl font-bold mb-4">Recording, Mixing, Mastering, Scratching & Beat Composition - $100/hour</p>
-      <!-- Elfsight Widget (no extra heading) -->
-      <div class="elfsight-app-cd144ed9-9c55-46e0-8f90-cf4413ec12f8" data-elfsight-app-lazy></div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-6">
-    <div class="container mx-auto text-center">
-      <p>&copy; 2024 Shake Down Studio. All rights reserved.</p>
-    </div>
-  </footer>
-
-</body>
+    </footer>
+  </body>
 </html>
